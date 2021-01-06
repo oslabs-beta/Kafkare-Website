@@ -82,8 +82,7 @@ export default function AboutUs() {
             </Link>
           </div>
         </div>
-      </div>
-      <div className="about-row">
+
         <div className="profile">
           <div className="avatar">
             <Image
@@ -95,6 +94,11 @@ export default function AboutUs() {
             />
           </div>
           <h4 className="name">Joel Beger</h4>
+          <h5 className="engineer">Software Engineer</h5>
+          <h6 className="bio">
+            Hi I'm Joel. I like turtles. I also like long walks on the beach.
+            Sometimes I wonder if there's a cat heaven. It makes me cry.
+          </h6>
 
           <div className="contact">
             <Link href="https://www.linkedin.com/in/jtbeger/">
